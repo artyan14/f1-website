@@ -1,0 +1,401 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+h2 {
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+body {
+    text-align: center;
+    background-image: url("background_f1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.youtube-button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.youtube-button:hover {
+    transform: scale(1.08);
+    filter: brightness(0.8);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+#themeButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 20px;
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.hero h1{
+    font-size: 70px;
+    color:red;
+    text-shadow: 3px 3px 8px black;
+}
+
+.hero {
+    padding:100px 20px;
+    margin-bottom:40px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.hero-button:hover {
+    transform: scale(1.08);
+    background-color: darkred;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color:red;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.teams {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.team-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s, background-size 0.4s;
+}
+
+ .team-card:hover {
+    transform: scale(1.05);
+    background-size: 110%;
+}
+
+.team-card:nth-child(1) {
+    background-image: url("Mercedes.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.team-card:nth-child(2) {
+    background-image: url("Ferrari.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.team-card:nth-child(3) {
+    background-image: url(RedBull.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.team-card:nth-child(4) {
+    background-image: url(McLaren.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.team-card h3 {
+    color:white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.team-card p {
+    color: lightgray;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.countdown {
+    text-align: center;
+    margin: 40px auto;
+    padding: 25px;
+    max-width: 500px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0,4);
+}
+
+.countdown h2 {
+    color: red;
+    font-size: 35px;
+}
+
+.countdown h3 {
+    color: white;
+    font-size: 25px;
+}
+
+#timer {
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.time-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid red;
+    border-radius: 12px 15px;
+    min-width: 70px;
+}
+
+time.box span {
+    display: block;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.time-box cmall {
+    color:lightgray;
+    font-size: 11px;
+}
+
+.drivers {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.driver-card {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-image: url(Hamilton.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.driver-card:hover {
+    transform: scale(1.05);
+}
+
+.driver-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.driver-card h3,
+.driver-card p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.driver-card h3 {
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    margin: 0;
+    font-size: 26px;
+}
+
+.driver-card p {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leclerc-card {
+    background-image: url("Leclerc.jpeg");
+}
+
+.russell-card {
+    background-image: url(Russell.png);
+}
+
+.kimi-card {
+    background-image: url(Antonelli.png);
+}
+
+.drivers {
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.driver-card {
+    vertical-align: top;
+}
+
+.norris-card {
+    background-image: url(Norris.png);
+}
+
+.piastri-card {
+    background-image: url(Piastri.png);
+}
+
+.verstappen-card {
+    background-image: url(Verstappen.jfif);
+}
+
+.hadjar-card {
+    background-image: url(Hadjar.jfif);
+}
+
+.lawson-card {
+    background-image: url(Lawson.webp);
+}
+
+.lindblad-card {
+    background-image: url(Lindblad.jfif);
+}
+
+.leaderboard {
+    width: 80%;
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 20px;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard th {
+    color:red;
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 2px solid red;
+}
+
+.leaderboard td {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.first-place td {
+    color: gold;
+    font-weight: bold;
+}
+
+.second-place td {
+    color: silver;
+    font-weight: bold;
+}
+
+.third-place td {
+    color: #cd7f32;
+    font-weight: bold;
+}
+
+.leaderboard tr:not(:first-child):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
