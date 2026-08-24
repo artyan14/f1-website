@@ -1,5 +1,5 @@
     const timer = document.getElementById("timer");
-    const raceDate = new Date("2026-08-23T18:00:00");
+    const raceDate = new Date("2026-09-06T18:00:00");
     function updateTimer() {
         const now = new Date();
         const difference = raceDate - now;
