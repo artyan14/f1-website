@@ -412,6 +412,25 @@ time.box span {
         background-position: center;
         background-repeat: no-repeat;
     }
+
+    .leaderboard {
+        width: 95%;
+        box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.leaderboard table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.leaderboard th,
+.leaderboard td {
+    padding: 8px 3px;
+    font-size: 13px;
+    box-sizing: border-box;
+    }
 }
 
 
