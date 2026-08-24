@@ -403,17 +403,25 @@ time.box span {
         background: none;
     }
 
-    body::before {
-        content: "";
+    .page-background {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url("background_f1.webp");
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        z-index: -1;
     }
+}
+
+
+.page-background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    background-image: url(background_f1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
 }
