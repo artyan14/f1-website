@@ -431,6 +431,17 @@ time.box span {
     font-size: 13px;
     box-sizing: border-box;
     }
+
+.drivers {
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+.driver-card {
+    width: 150px;
+    height: 200px;
+    margin: 8px;
+}
 }
 
 
