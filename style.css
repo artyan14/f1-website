@@ -433,14 +433,20 @@ time.box span {
     }
 
 .drivers {
-    max-width: 100%;
+        max-width: 100%;
     margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .driver-card {
-    width: 150px;
-    height: 200px;
-    margin: 8px;
+    width: 100%;
+    height: 220px;
+    margin: 0;
+    box-sizing: border-box;
 }
 }
 
